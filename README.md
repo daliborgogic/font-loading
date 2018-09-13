@@ -1,6 +1,6 @@
 # font-loading [wip]
 
-> [Nuxt.js](https://github.com/nuxt/nuxt.js) module for [Font Loading](). This API provides a scripting interface to define and manipulate CSS font faces, track their download progress, and override their default lazyload behavior. For example, if you're sure that a particular font variant is required, you can define it and tell the browser to initiate an immediate fetch of the font resource.
+> [Nuxt.js](https://github.com/nuxt/nuxt.js) module for [Font Loading API](https://www.w3.org/TR/css-font-loading/). This API provides a scripting interface to define and manipulate CSS font faces, track their download progress, and override their default lazyload behavior. For example, if you're sure that a particular font variant is required, you can define it and tell the browser to initiate an immediate fetch of the font resource.
 
 
 Note: The Font Loading API is still [under development in some browsers](http://caniuse.com/#feat=font-loading).
