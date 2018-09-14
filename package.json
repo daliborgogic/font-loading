@@ -1,10 +1,18 @@
 {
   "name": "font-loading",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Nuxt.js module for Font Loading Module Level 3 used for dynamically loading font resources.",
+  "main": "lib/module.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "node_modules/.bin/eslint --ext .js lib",
+    "prerelease": "npm run lint",
+    "release": "standard-version && git push origin master:publish --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -16,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/daliborgogic/font-loading/issues"
   },
-  "homepage": "https://github.com/daliborgogic/font-loading#readme"
+  "homepage": "https://github.com/daliborgogic/font-loading#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
 }
