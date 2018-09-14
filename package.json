@@ -1,6 +1,6 @@
 {
   "name": "font-loading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nuxt.js module for Font Loading Module Level 3 used for dynamically loading font resources.",
   "main": "lib/module.js",
   "directories": {
@@ -31,6 +31,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "standard-version": "^4.4.0"
   }
 }
