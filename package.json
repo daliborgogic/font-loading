@@ -1,6 +1,6 @@
 {
   "name": "font-loading",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nuxt.js module for Font Loading Module Level 3 used for dynamically loading font resources.",
   "main": "lib/module.js",
   "directories": {
