@@ -18,9 +18,14 @@
     "type": "git",
     "url": "git+https://github.com/daliborgogic/font-loading.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nuxt",
+    "module",
+    "font",
+    "loading"
+  ],
+  "author": "Dalibor Gogic <mail@daliborgogic.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/daliborgogic/font-loading/issues"
   },
