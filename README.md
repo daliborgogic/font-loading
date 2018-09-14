@@ -37,6 +37,18 @@ Type: ```String```
 
 Type: ```String```
 
+### fontOptions.style
+
+Type: ```String```
+
+Default: ```normal```
+
+### fontOptions.weight
+
+Type: ```String```
+
+Default: ```400```
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
