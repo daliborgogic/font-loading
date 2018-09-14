@@ -5,8 +5,6 @@
 
 Note: Font Loading Module Level 3 is still [under development in some browsers](http://caniuse.com/#feat=font-loading).
 
-Proper caching is a must.
-
 ## Setup
 
 - Add ```font-loading``` as dependency
@@ -31,19 +29,25 @@ Type: ```String```
 
 Default: ```-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif```
 
-Font Family
-
 ### fontName
 
 Type: ```String```
-
-Font name
 
 ### fontPath
 
 Type: ```String```
 
-Font path
+### fontOptions.style
+
+Type: ```String```
+
+Default: ```normal```
+
+### fontOptions.weight
+
+Type: ```String```
+
+Default: ```400```
 
 ## License
 
